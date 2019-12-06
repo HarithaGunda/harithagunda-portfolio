@@ -43,7 +43,7 @@
     "jquery": "^3.3.1",
     "popper.js": "^1.12.9"
   },
-  "homepage": "https://github.com/HarithaGunda/harithagunda-portfolio.git",
+  "homepage": "https://github.com/HarithaGunda/harithagunda-portfolio#readme",
   "repository": {
     "type" : "git",
     "url" : "https://github.com/HarithaGunda/harithagunda-portfolio.git"
