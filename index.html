@@ -17,24 +17,19 @@
 
 <body>
     <div class="container-fluid" id="parent-container">
-        <div class="row no-gutters" style="min-height:100vh;">
-            <div class="col-3 bg-warning text-white">
-                    <div id="personavatar" class="offset-3 pt-5">    
-                <img class="rounded-circle" src="img/sidebar-profilepic.jpg" alt="Haritha Gunda">
-                    </div>
-                <div id="personavatar-content" class="pl-5 pt-2">
-                    <h2>Haritha Gunda</h2>
-                    <h3>Full Stack Developer</h3>
-                </div>
-                <hr width="70%" />
-                <nav class="navbar navbar-expand-lg pl-5">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-navbar">
+        <div class="row" style="min-height:100vh;">
+            <div class="col-sm-2 col-xs-4 d-flex-column bg-warning text-white justify-content-center">
+                <img class="rounded-circle mx-auto d-block img-fluid pt-md-4 pt-2" src="img/sidebar-profilepic.jpg" alt="Haritha Gunda">  
+                <h3 class="text-center">Haritha Gunda</h3>
+                <hr/>
+                <nav class="navbar navbar-expand-md">
+                    <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#menu-navbar">
                         <span class="navbar-toggler-icon"><i class="fa fa-caret-down" aria-hidden="true"></i></span>
                     </button>
                     <div class="collapse navbar-collapse" id="menu-navbar">
-                        <ul class="navbar-nav flex-column">
+                        <ul class="navbar-nav flex-column mx-auto text-center">
                             <li class="nav-item active">
-                                <a class="nav-link text-white" href="#">About</a>
+                                <a class="nav-link text-white" href="about.html">About</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-white" href="#"> Work</a></li>
@@ -42,18 +37,17 @@
                                 <a class="nav-link text-white" href="#"> Resume</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white" href="#">Awards &amp;
-                                    Certs</a>
+                                <a class="nav-link text-white" href="#">Accolades</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white" href="#"> Learn &amp;
-                                    Share</a>
+                                <a class="nav-link text-white" href="#">Blog</a>
                             </li>
                         </ul>
                     </div>
                 </nav>
-                <hr width="70%" />
-                <div id="socialicons" class="pl-5">
+                <hr/>
+                <!-- <h6 class="text-center">Get in Touch</h6> -->
+                <div id="socialicons" class="text-center mt-md-5">
                     <a class="btn btn-social-icon btn-email" href="mailto:gunda.haritha@gmail.com"><i
                             class="fa fa-envelope-square text-white"></i></a>
                     <a class="btn btn-social-icon btn-git" href="https://github.com/HarithaGunda"><i
@@ -64,8 +58,8 @@
                             class="fa fa-linkedin-square text-white"></i></a>
                 </div>
             </div>
-            <div class="col d-flex align-items-center justify-content-center" style="background-image: url('img/home-laptopnchair.jpg');background-size:cover;">
-                <h1 class="text-white pl-4">Hi, I am Haritha Gunda, a full stack webdeveloper currently residing in NC, USA</h1>
+            <div class="col-xs-8 col-sm-10 d-flex" style="background-image: url('img/home-laptopnchair.jpg');background-size:cover;">
+                <h1 id="content-index" class="text-white align-self-center p-3">Hi, I am Haritha Gunda, a full stack webdeveloper currently residing in NC, USA</h1>
             </div>
         </div>
     </div>
@@ -73,7 +67,8 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/globalscript.js"></script>
+    
     <!-- endbuild -->
 </body>
-
 </html>

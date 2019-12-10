@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- build:css css/main.css -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <!-- endbuild -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+  <link rel="icon" href="data:;base64,=">
+  <title>Haritha Gunda-Full Stack Developer</title>
+</head>
+
+<body>
+  <div class="container-fluid overflow-hidden" id="parent-container">
+    <div class="row">
+      <div class="col-sm-2 col-xs-4 d-flex-column bg-warning text-white justify-content-center">
+        <img class="rounded-circle mx-auto d-block img-fluid pt-md-4 pt-2" src="img/sidebar-profilepic.jpg"
+          alt="Haritha Gunda">
+        <h3 class="text-center">Haritha Gunda</h3>
+        <hr />
+        <nav class="navbar navbar-expand-md">
+          <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#menu-navbar">
+            <span class="navbar-toggler-icon"><i class="fa fa-caret-down" aria-hidden="true"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menu-navbar">
+            <ul class="navbar-nav flex-column mx-auto text-center">
+              <li class="nav-item active">
+                <a class="nav-link text-white" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#"> Work</a></li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#"> Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Accolades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <hr />
+        <!-- <h6 class="text-center">Get in Touch</h6> -->
+        <div id="socialicons" class="text-center mt-md-5">
+          <a class="btn btn-social-icon btn-email" href="mailto:gunda.haritha@gmail.com"><i
+              class="fa fa-envelope-square text-white"></i></a>
+          <a class="btn btn-social-icon btn-git" href="https://github.com/HarithaGunda"><i
+              class="fa fa-github-square text-white"></i></a>
+          <a class=" btn btn-social-icon btn-fb" href="https://www.facebook.com/Haritha-Gunda"><i
+              class="fa fa-facebook-square text-white"></i></a>
+          <a class=" btn btn-social-icon btn-li" href="https://www.linkedin.com/in/harithagunda/"><i
+              class="fa fa-linkedin-square text-white"></i></a>
+        </div>
+      </div>
+      <div class="col-xs-8 col-sm-10 flex-column addscrollatY">
+        <ol class="breadcrumb bg-white font-weight-bold">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item active">About</li>
+        </ol>
+        <div id="content-about" class="text-justify p-3 mb-4 floater-div">
+          9.3 &plus; years of professional experience as Java &#8725; J2EE designer and developer, Quality Assurance
+          engineer with extensive knowledge and work experience in software development life cycle (SDLC) of client
+          implementations including requirements gathering, design, development, testing, support, maintenance and
+          technical documentation.
+          I have experience in delivering four full life cycle projects within Insurance, Telecommunication, Banking and
+          Travel domains.
+        </div>
+        <div class="text-center border-wrapper-div">
+          <span>
+            Skills
+          </span>
+        </div>
+        <div id="about-accordion" class="mt-5">
+          <div class="card border-warning mb-1">
+            <div class="card-header" id="heading-one">
+              <h6> Web Technologies
+                (Clientside)
+                <button class="btn btn-link float-right" data-toggle="collapse" data-target="#collapse-one"
+                  aria-expanded="false" aria-controls="collapse-one">
+                  <i class="fa fa-angle-down text-dark" aria-hidden="true"></i>
+                </button>
+              </h6>
+            </div>
+            <div id="collapse-one" class="collapse" aria-labelledby="Web Technologies-Clientside"
+              data-parent="#about-accordion">
+              <div class="card-body">
+                Javascript, HTML, CSS, JQuery, Prototype,Bootstrap
+              </div>
+            </div>
+          </div>
+          <div class="card border-warning mb-1">
+            <div class="card-header" id="heading-two">
+              <h6> Web Technologies
+                (Serverside)
+                <button class="btn btn-link float-right" data-toggle="collapse" data-target="#collapse-two"
+                  aria-expanded="false" aria-controls="collapse-two">
+                  <i class="fa fa-angle-down text-dark" aria-hidden="true"></i>
+                </button>
+              </h6>
+            </div>
+            <div id="collapse-two" class="collapse" aria-labelledby="Web Technologies-Serverside"
+              data-parent="#about-accordion">
+              <div class="card-body">
+                Java 1.6,Struts, J2EE (Servlets / JSPs), Web Services – REST, SOAP, JDBC, JAXB, SAAJ, XML, XSLT.
+              </div>
+            </div>
+          </div>
+          <div class="card border-warning mb-1">
+              <div class="card-header" id="heading-three">
+                <h6> Persistence Frameworks
+                  <button class="btn btn-link float-right" data-toggle="collapse" data-target="#collapse-three"
+                    aria-expanded="false" aria-controls="collapse-three">
+                    <i class="fa fa-angle-down text-dark" aria-hidden="true"></i>
+                  </button>
+                </h6>
+              </div>
+              <div id="collapse-three" class="collapse" aria-labelledby="Persistence Frameworks"
+                data-parent="#about-accordion">
+                <div class="card-body">
+                    Hibernate, iBatis
+                </div>
+              </div>
+            </div>
+            <div class="card border-warning mb-1">
+                <div class="card-header" id="heading-four">
+                  <h6> Web Development Tools
+                    <button class="btn btn-link float-right" data-toggle="collapse" data-target="#collapse-four"
+                      aria-expanded="true" aria-controls="collapse-four">
+                      <i class="fa fa-angle-down text-dark" aria-hidden="true"></i>
+                    </button>
+                  </h6>
+                </div>
+                <div id="collapse-four" class="collapse" aria-labelledby="Web Development Tools"
+                  data-parent="#about-accordion">
+                  <div class="card-body">
+                      PMD, Findbugs, Maven, Coverity, Jenkins,NPM
+                  </div>
+                </div>
+              </div>
+            <div class="card border-warning mb-1">
+                <div class="card-header" id="heading-five">
+                  <h6> Web / Application Servers
+                    <button class="btn btn-link float-right" data-toggle="collapse" data-target="#collapse-five"
+                      aria-expanded="false" aria-controls="collapse-five">
+                      <i class="fa fa-angle-down text-dark" aria-hidden="true"></i>
+                    </button>
+                  </h6>
+                </div>
+                <div id="collapse-five" class="collapse" aria-labelledby="Web / Application Servers"
+                  data-parent="#about-accordion">
+                  <div class="card-body">
+                      Tomcat 5.0x, 6.0x., Web Logic 8, 10.3,lite-server2.3
+                  </div>
+                </div>
+              </div>
+              <div class="card border-warning mb-1">
+                  <div class="card-header" id="heading-six">
+                    <h6> Methodologies
+                      <button class="btn btn-link float-right" data-toggle="collapse" data-target="#collapse-six"
+                        aria-expanded="false" aria-controls="collapse-six">
+                        <i class="fa fa-angle-down text-dark" aria-hidden="true"></i>
+                      </button>
+                    </h6>
+                  </div>
+                  <div id="collapse-six" class="collapse" aria-labelledby="Methodologies"
+                    data-parent="#about-accordion">
+                    <div class="card-body">
+                        Waterfall, V-Model, Agile (Scrum), Kanban.
+                    </div>
+                  </div>
+                </div>
+                <div class="card border-warning mb-1">
+                    <div class="card-header" id="heading-six">
+                      <h6> Methodologies
+                        <button class="btn btn-link float-right" data-toggle="collapse" data-target="#collapse-six"
+                          aria-expanded="false" aria-controls="collapse-six">
+                          <i class="fa fa-angle-down text-dark" aria-hidden="true"></i>
+                        </button>
+                      </h6>
+                    </div>
+                    <div id="collapse-six" class="collapse" aria-labelledby="Methodologies"
+                      data-parent="#about-accordion">
+                      <div class="card-body">
+                          Waterfall, V-Model, Agile (Scrum), Kanban.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card border-warning mb-1">
+                      <div class="card-header" id="heading-seven">
+                        <h6> Tools
+                          <button class="btn btn-link float-right" data-toggle="collapse" data-target="#collapse-seven"
+                            aria-expanded="false" aria-controls="collapse-sever">
+                            <i class="fa fa-angle-down text-dark" aria-hidden="true"></i>
+                          </button>
+                        </h6>
+                      </div>
+                      <div id="collapse-seven" class="collapse" aria-labelledby="Tools"
+                        data-parent="#about-accordion">
+                        <div class="card-body">
+                            Eclipse (IDE) Mars, Kepler, Advanced REST client (Chrome plugin), SOAP UI, SQL Developer, Http Fox, VS Code,Winscp, Putty, Cygwin, Splunk, BluePrism, IBM Content Navigator Plugins, Genesys Contact Center Solution Suite, Lisa Service Virtualization, ANT Script
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card border-warning mb-1">
+                        <div class="card-header" id="heading-eight">
+                          <h6> Ticketing Tools
+                            <button class="btn btn-link float-right" data-toggle="collapse" data-target="#collapse-eight"
+                              aria-expanded="false" aria-controls="collapse-sever">
+                              <i class="fa fa-angle-down text-dark" aria-hidden="true"></i>
+                            </button>
+                          </h6>
+                        </div>
+                        <div id="collapse-eight" class="collapse" aria-labelledby="Ticketing Tools"
+                          data-parent="#about-accordion">
+                          <div class="card-body">
+                              Assyst, Espresso, Radar, Sonar, HP QC
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card border-warning mb-1">
+                          <div class="card-header" id="heading-nine">
+                            <h6> Enterprise Content Management Platform
+                              <button class="btn btn-link float-right" data-toggle="collapse" data-target="#collapse-nine"
+                                aria-expanded="false" aria-controls="collapse-sever">
+                                <i class="fa fa-angle-down text-dark" aria-hidden="true"></i>
+                              </button>
+                            </h6>
+                          </div>
+                          <div id="collapse-nine" class="collapse" aria-labelledby="Enterprise Content Management Platform"
+                            data-parent="#about-accordion">
+                            <div class="card-body">
+                                IBM Content Manager OnDemand, IBM FileNet Content Manager
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card border-warning mb-1">
+                            <div class="card-header" id="heading-ten">
+                              <h6> Data Capture and Imaging
+                                <button class="btn btn-link float-right" data-toggle="collapse" data-target="#collapse-ten"
+                                  aria-expanded="false" aria-controls="collapse-sever">
+                                  <i class="fa fa-angle-down text-dark" aria-hidden="true"></i>
+                                </button>
+                              </h6>
+                            </div>
+                            <div id="collapse-ten" class="collapse" aria-labelledby="Data Capture and Imaging"
+                              data-parent="#about-accordion">
+                              <div class="card-body">
+                                  IBM Content Manager, IBM Content Manager OnDemand
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card border-warning mb-1">
+                              <div class="card-header" id="heading-eleven">
+                                <h6> Document Processing Tools
+                                  <button class="btn btn-link float-right" data-toggle="collapse" data-target="#collapse-eleven"
+                                    aria-expanded="false" aria-controls="collapse-sever">
+                                    <i class="fa fa-angle-down text-dark" aria-hidden="true"></i>
+                                  </button>
+                                </h6>
+                              </div>
+                              <div id="collapse-eleven" class="collapse" aria-labelledby="Document Processing Tools"
+                                data-parent="#about-accordion">
+                                <div class="card-body">
+                                    Docucorp Docusave and Docupresentment
+                                </div>
+                              </div>
+                            </div>
+                            <div class="card border-warning mb-1">
+                                <div class="card-header" id="heading-twelve">
+                                  <h6> Version Control Tools
+                                    <button class="btn btn-link float-right" data-toggle="collapse" data-target="#collapse-twelve"
+                                      aria-expanded="false" aria-controls="collapse-sever">
+                                      <i class="fa fa-angle-down text-dark" aria-hidden="true"></i>
+                                    </button>
+                                  </h6>
+                                </div>
+                                <div id="collapse-twelve" class="collapse" aria-labelledby="Version Control Tools"
+                                  data-parent="#about-accordion">
+                                  <div class="card-body">
+                                      Stash, Source Tree, GIT, SVN, CVS
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="card border-warning mb-1">
+                                  <div class="card-header" id="heading-thirteen">
+                                    <h6> Project management Tools
+                                      <button class="btn btn-link float-right" data-toggle="collapse" data-target="#collapse-thirteen"
+                                        aria-expanded="false" aria-controls="collapse-sever">
+                                        <i class="fa fa-angle-down text-dark" aria-hidden="true"></i>
+                                      </button>
+                                    </h6>
+                                  </div>
+                                  <div id="collapse-thirteen" class="collapse" aria-labelledby="Project management Tools"
+                                    data-parent="#about-accordion">
+                                    <div class="card-body">
+                                        Microsoft Projects, Omni Plan, HP ALM, JIRA
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="card border-warning mb-1">
+                                    <div class="card-header" id="heading-fourteen">
+                                      <h6>Operating Systems and Browsers
+                                        <button class="btn btn-link float-right" data-toggle="collapse" data-target="#collapse-fourteen"
+                                          aria-expanded="false" aria-controls="collapse-sever">
+                                          <i class="fa fa-angle-down text-dark" aria-hidden="true"></i>
+                                        </button>
+                                      </h6>
+                                    </div>
+                                    <div id="collapse-fourteen" class="collapse" aria-labelledby="Operating Systems and Browsers"
+                                      data-parent="#about-accordion">
+                                      <div class="card-body">
+                                          OS: Windows XP, Mac OS X Version 10.6.4, Snow Leopard, Mountain Lion, Amazon AWS Cloud Instances, AIX
+                                          Browsers: Safari, IE, Chrome, Mozilla
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="card border-warning mb-1">
+                                      <div class="card-header" id="heading-fifteen">
+                                        <h6>Database (RDBMS and Others)
+                                          <button class="btn btn-link float-right" data-toggle="collapse" data-target="#collapse-fifteen"
+                                            aria-expanded="false" aria-controls="collapse-sever">
+                                            <i class="fa fa-angle-down text-dark" aria-hidden="true"></i>
+                                          </button>
+                                        </h6>
+                                      </div>
+                                      <div id="collapse-fifteen" class="collapse" aria-labelledby="Operating Systems and Browsers"
+                                        data-parent="#about-accordion">
+                                        <div class="card-body">
+                                            Oracle 9i,DB2,SQL, PL/SQL
+                                        </div>
+                                      </div>
+                                    </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- build:js js/main.js -->
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="js/globalscript.js"></script>
+
+  <!-- endbuild -->
+</body>
+
+</html>

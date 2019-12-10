@@ -1,0 +1,48 @@
+$font-family:Roboto,
+Helvetica,
+sans-serif;
+$layout-breakpoint-medium: 768px;
+$font-color-white:white;
+$font-weight-sleek:300;
+@for $i from 1 through 6 {
+    h#{$i} {
+        font-family: $font-family;
+        @if $i == 1{
+            font-weight:400px;}
+    }
+}
+li a{
+    font-weight: $font-weight-sleek !important;
+    font-family: $font-family !important;
+}
+h6{
+    font-weight: 360;
+    font-family: $font-family;
+    font-style: italic;
+}
+div {
+    font-weight: $font-weight-sleek;
+    font-family: $font-family;
+}
+//For header text between the lines 
+.border-wrapper-div {
+    border-bottom: 2px solid rgba(255, 174, 66, 0.4);
+    height: 15px;
+
+    span {
+        font-weight: 450;
+        font-family: $font-family;
+        background-color: $font-color-white;
+        padding: 10px;
+    }
+}
+.floater-div {
+    font-weight: $font-weight-sleek;
+    font-family: $font-family;
+}
+@media (min-width: $layout-breakpoint-medium) {
+    .addscrollatY {
+        overflow-y: scroll;
+        height: 700px;
+    }
+}
