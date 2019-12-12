@@ -1,49 +1,111 @@
 h1 {
   font-family: Roboto, Helvetica, sans-serif;
-  font-weight: 400px; }
+  font-weight: 400;
+}
 
 h2 {
-  font-family: Roboto, Helvetica, sans-serif; }
+  font-family: Roboto, Helvetica, sans-serif;
+}
 
 h3 {
-  font-family: Roboto, Helvetica, sans-serif; }
+  font-family: Roboto, Helvetica, sans-serif;
+}
 
 h4 {
-  font-family: Roboto, Helvetica, sans-serif; }
+  font-family: Roboto, Helvetica, sans-serif;
+  font-weight: 400;
+}
 
 h5 {
-  font-family: Roboto, Helvetica, sans-serif; }
+  font-family: Roboto, Helvetica, sans-serif;
+}
 
 h6 {
-  font-family: Roboto, Helvetica, sans-serif; }
+  font-family: Roboto, Helvetica, sans-serif;
+  font-weight: 360;
+  font-style: italic;
+}
 
 li a {
   font-weight: 300 !important;
-  font-family: Roboto, Helvetica, sans-serif !important; }
+  font-family: Roboto, Helvetica, sans-serif !important;
+}
 
-h6 {
-  font-weight: 360;
-  font-family: Roboto, Helvetica, sans-serif;
-  font-style: italic; }
+div>h6 {
+  font-style: normal;
+}
 
 div {
   font-weight: 300;
-  font-family: Roboto, Helvetica, sans-serif; }
+  font-family: Roboto, Helvetica, sans-serif;
+}
 
 .border-wrapper-div {
   border-bottom: 2px solid rgba(255, 174, 66, 0.4);
-  height: 15px; }
-  .border-wrapper-div span {
-    font-weight: 450;
-    font-family: Roboto, Helvetica, sans-serif;
-    background-color: white;
-    padding: 10px; }
+  height: 15px;
+}
+
+.border-wrapper-div span {
+  font-weight: 450;
+  font-family: Roboto, Helvetica, sans-serif;
+  background-color: white;
+  padding: 10px;
+}
 
 .floater-div {
   font-weight: 300;
-  font-family: Roboto, Helvetica, sans-serif; }
+  font-family: Roboto, Helvetica, sans-serif;
+}
 
 @media (min-width: 768px) {
   .addscrollatY {
     overflow-y: scroll;
-    height: 700px; } }
+    height: 700px;
+  }
+}
+
+.projecttimeline-date-text {
+  font-style: italic;
+  font-weight: 200;
+  font-size: small;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+@media (min-width: 768px) {
+  .projecttimeline-date-text {
+    align-items: center;
+    width: 10%;
+    border-right: 2px dotted rgba(255, 174, 66, 0.5);
+    text-align: right;
+  }
+}
+
+@media (max-width: 576px) {
+  .projecttimeline-date-text {
+    margin-top: 10px;
+  }
+}
+
+.projecttimeline {
+  display: flex;
+}
+
+@media (min-width: 768px) {
+  .projecttimeline {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 576px) {
+  .projecttimeline {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) {
+  .projecttimeline-contents {
+    width: 80%;
+    margin-left: 10px;
+  }
+}
